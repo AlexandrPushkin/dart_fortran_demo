@@ -1,0 +1,14 @@
+# ffigen.yaml
+name: 'FortranFunctions'
+description: 'Bindings for Fortran functions'
+comments:
+  style: 'any'
+  length: 'full'
+  location: 'before'
+output: 'lib/fortran_functions_bindings.dart'
+llvm-path:
+  - 'D:\Program Files (x86)\LLVM\'
+headers:
+  entry-points:
+    - 'math_functions.h'
+    - 'string_functions.h'
